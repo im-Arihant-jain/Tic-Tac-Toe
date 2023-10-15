@@ -1,0 +1,44 @@
+/* Reset default margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    
+    justify-content: center;
+}
+.gridbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Define the grid container */
+.grid-container {
+    display: grid;
+    
+    grid-template-columns: 100px 100px 100px;
+     /* Three columns with equal width */
+    grid-gap: 2px; /* Gap between grid items */
+    margin: 20px; /* Add some margin for spacing */
+}
+
+/* Style the grid items in */
+.grid-item {
+    grid-area: 30px;
+    background-color:yellow;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+.playbtn{
+    
+    text-align: center;
+    justify-content: center;
+
+}
+#play1{
+    background-color: gray;
+}
+#play2{
+    background-color: gray;
+}
